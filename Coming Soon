@@ -22,16 +22,16 @@
         }
     </style>
 </head>
-<body class="bg-indigo-900 text-white">
-    <div id="vanta-background" class="vanta-container"></div>
+<body class="bg-[#0a0f33] text-[#00ff00]">
+<div id="vanta-background" class="vanta-container"></div>
     
     <div class="flex flex-col justify-center items-center h-screen px-4 text-center">
         <div class="max-w-2xl mx-auto">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-green-300 animate-pulse">
-                Please pardon our progress!
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-[#00ff00] animate-pulse">
+Please pardon our progress!
             </h1>
-            <p class="text-xl md:text-2xl mb-10 text-green-200">
-                Come back soon for exciting Growth!
+            <p class="text-xl md:text-2xl mb-10 text-[#00ff00]">
+Come back soon for exciting Growth!
             </p>
             <div class="border-t border-green-400 w-1/2 mx-auto my-8"></div>
             <p class="text-lg md:text-xl text-green-100">
@@ -46,19 +46,24 @@
     <script>
         VANTA.NET({
             el: "#vanta-background",
-            mouseControls: false,
-            touchControls: false,
+            mouseControls: true,
+            touchControls: true,
             gyroControls: false,
             minHeight: 200.00,
             minWidth: 200.00,
             scale: 1.00,
             scaleMobile: 1.00,
-            color: 0x22c55e,
-            backgroundColor: 0x1e3a8a,
-            points: 12.00,
-            maxDistance: 24.00,
-            spacing: 16.00
+            color: 0x00ff00,
+            backgroundColor: 0x0a0f33,
+points: 18.00,
+            maxDistance: 18.00,
+            spacing: 12.00,
+            showDots: true,
+            dotSize: 3.5,
+            lineWidth: 1.2,
+            nodeSize: 4.5,
+            dynamicAnchors: true
         })
-    </script>
+</script>
 </body>
 </html>
